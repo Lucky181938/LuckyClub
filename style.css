@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+#game {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  display: inline-block;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+#colorBox {
+  width: 100px;
+  height: 100px;
+  margin: 15px auto;
+  border-radius: 8px;
+  border: 2px solid #333;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
